@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>노가다 게임</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b885112c80.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <h1 id="display">0</h1>
+        <div class="bth">
+            <button onclick="term()" id="click">클릭!</button>
+        </div>
+        <section>
+            <button class="OPEN" id="OPEN" onclick="OPEN()">업그레이드 상점</button>
+            
+            <div class="shop" id="shop">
+                <div class="close"><i class="fa-solid fa-xmark"  onclick="Close()"></i></div>
+                <div class="goods">
+                <div class="one">
+                    <h3>클릭 1씩 업그레이드</h3>
+                    <p>비용:<h5 id="buy_expense">5</h5></p>
+                    <button id="1_up">구매!</button>
+                </div>
+                <div class="two">
+                    <h3>클릭 10씩 업그레이드</h3>
+                    <p>비용:<h5 id="buy_expense2">1000</h5></p>
+                    <button id="10_up">구매!</button>
+                </div>
+            </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

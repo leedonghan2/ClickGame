@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background: linear-gradient(135deg, #153677, #7c7474 );
+    height: 100vh;
+}
+h1{
+    color: white;
+}
+.container{
+    margin: 100px;
+    text-align: center;
+    
+}
+.shop{
+    display: none;
+    justify-content: center;
+    margin-top: 120px;
+    background-color: aqua;
+    height: 300px;
+    border-radius: 15px;
+}
+.goods{
+    display: flex;
+    margin-left: 10px;
+}
+.goods .two{
+    margin-left: 20px;
+}
+
+.close{
+    float: right;
+    padding-right: 10px;
+}
+.close i {
+    font-size: 25px;
+}
+
+.bth button{
+    margin-top: 50px;
+    width: 200px;
+    height: 100px;
+}
+.OPEN{
+    margin-top: 100px;
+}
+button{
+    border-radius: 18px;
+    width: 120px;
+    height: 50px;
+}
